@@ -26,11 +26,19 @@ public class Enclosure {
         return false;
     }
 
+    public List<Animal> getAnimalsList() {
+        return animalsList;
+    }
+
+    public int getCapasity() {
+        return capasity;
+    }
+
     @Override
     public String toString() {
         return "Enclosure{" +
-                "animalsList=" + animalsList +
-                ", capasity=" + capasity +
+                "animalsList=" + getAnimalsList() +
+                ", capasity=" + getCapasity() +
                 '}';
     }
 }

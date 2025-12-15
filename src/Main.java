@@ -38,6 +38,9 @@ public class Main {
 
         eatService.eat(lion1);
         eatService.eat(rabbit1);
+        eatService.eat(penguin1);
+
+        System.out.println("================================================");
 
         /** Медицинский осмотр при приёме (SRP — отдельный сервис)
          *
@@ -46,16 +49,18 @@ public class Main {
         veterinar.heal(rabbit1);
         veterinar.heal(penguin1);
 
+        System.out.println("================================================");
+
         lion1.move();
         rabbit1.move();
         penguin1.move();
 
-
-
+        System.out.println("================================================");
 
         /** Вольер */
         valier.addAnimal(rabbit1);
         valier.addAnimal(lion1);
+
 
          /** Выставка животных (OCP — можно добавить новые типы выставок) */
 
