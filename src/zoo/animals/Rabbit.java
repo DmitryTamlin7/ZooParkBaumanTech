@@ -23,7 +23,7 @@ public class Rabbit implements Animal {
     }
 
     @Override
-    public String toString() {
-        return "Я кролик, живу в зоопарке";
+    public void move() {
+        System.out.printf("%s Скачет с морковью в зубах\n", getName());
     }
 }

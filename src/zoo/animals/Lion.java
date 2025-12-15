@@ -27,6 +27,11 @@ public class Lion implements Animal {
     }
 
     @Override
+    public void move() {
+        System.out.printf("%s Бегаю и рычу\n", getName());
+    }
+
+    @Override
     public String getName() {
         return name;
     }

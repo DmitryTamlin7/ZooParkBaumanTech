@@ -46,6 +46,10 @@ public class Main {
         veterinar.heal(rabbit1);
         veterinar.heal(penguin1);
 
+        lion1.move();
+        rabbit1.move();
+        penguin1.move();
+
 
 
 
@@ -55,7 +59,7 @@ public class Main {
 
          /** Выставка животных (OCP — можно добавить новые типы выставок) */
 
-        vistovka.organize(Arrays.asList(lion1, rabbit1));
+        vistovka.organize(Arrays.asList(lion1, rabbit1, penguin1));
 
 
 

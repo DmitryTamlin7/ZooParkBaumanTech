@@ -20,4 +20,9 @@ public class Penguin  implements  Animal{
     public String getName() {
         return name;
     }
+
+    @Override
+    public void move() {
+        System.out.printf("%s плавает и забавно ходит\n", getName());
+    }
 }

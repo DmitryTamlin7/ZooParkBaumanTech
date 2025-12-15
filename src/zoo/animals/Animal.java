@@ -14,4 +14,6 @@ import zoo.diet.Diet;
 public interface Animal {
     String getName();
     Diet getDiet();
+
+    void move();
 }
