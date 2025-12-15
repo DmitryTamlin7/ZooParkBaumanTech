@@ -3,6 +3,14 @@ package zoo.animals;
 import zoo.diet.Diet;
 import zoo.diet.MealDiet;
 
+
+/**
+ * Класс Lion - конкретная реализация животного.
+ * <p>
+ * Реализует принцип LSP:
+ * объект Lion может использоваться везде, где ожидается Animal.
+ */
+
 public class Lion implements Animal {
 
     private final String name;

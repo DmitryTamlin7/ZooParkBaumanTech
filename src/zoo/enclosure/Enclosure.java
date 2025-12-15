@@ -1,9 +1,14 @@
 package zoo.enclosure;
-
 import zoo.animals.Animal;
-
 import java.util.ArrayList;
 import java.util.List;
+
+/**
+ * Вольер для содержания животных.
+ * <p>
+ * Реализует принцип SRP:
+ * класс отвечает только за хранение и размещение животных.
+ */
 
 public class Enclosure {
     private int capasity;

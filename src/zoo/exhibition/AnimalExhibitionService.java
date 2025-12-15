@@ -9,6 +9,6 @@ public class AnimalExhibitionService implements ExhibitionService{
     @Override
     public void organize(List<Animal> animals) {
         System.out.println("Выставка животных будет состоять из\n");
-        animals.forEach(animal -> animal.getName());
+        animals.forEach(animal -> System.out.println(animal.getName()));
     }
 }
