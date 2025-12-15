@@ -10,3 +10,5 @@ public class EatingValue implements EatService {
                 animal.getName(), animal.getDiet().getType());
     }
 }
+
+
