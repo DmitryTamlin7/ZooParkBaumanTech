@@ -7,3 +7,6 @@
 ![alt text](https://github.com/DmitryTamlin7/ZooParkBaumanTech/blob/main/photo/Interface%20segregation%20principle.jpg)
 
 ![alt text](https://github.com/DmitryTamlin7/ZooParkBaumanTech/blob/main/photo/Dependency%20inversion%20principle.jpg)
+
+
+![alt text](https://github.com/DmitryTamlin7/ZooParkBaumanTech/blob/main/photo/OutputMianFile.png)
